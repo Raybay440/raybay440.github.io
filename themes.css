@@ -1,0 +1,28 @@
+/* outfit-regular - latin */
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/outfit-v2-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/outfit-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/outfit-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/outfit-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/outfit-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/outfit-v2-latin-regular.svg#Outfit') format('svg'); /* Legacy iOS */
+}
+
+:root {
+    --SoftBlue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+
+    --VeryDarkBlueBG: hsl(217, 54%, 11%);
+    --VeryDarkBlueCD: hsl(216, 50%, 16%);
+    --VeryDarkBlueLn: hsl(215, 32%, 27%);
+
+    --shortDropShadow: 0 0 20px 25px hsla(216, 50%, 10%, 0.25);
+    --longDropShadow: 0 0 30px 50px hsla(217, 54%, 8%, 0.19);
+
+    --transitionIn: 0.3s ease-in;
+    --transitionOut: 0.2s ease-out;
+}

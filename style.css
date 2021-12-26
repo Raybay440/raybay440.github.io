@@ -1,0 +1,112 @@
+@import './themes.css';
+
+body {
+    display: flex;
+
+    background-color: var(--VeryDarkBlueBG);
+    color: var(--SoftBlue);
+
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    top: 0rem;
+    width: 22rem;
+    
+    margin: 8rem auto ;
+    border-radius: 25px;
+    
+    background-color: var(--VeryDarkBlueCD);
+    box-shadow: var(--shortDropShadow), var(--longDropShadow);
+}
+
+.info-card > * {
+    
+    margin: 0 6%;
+}
+
+.image{
+    display: flex;
+    margin-top: 8%;
+    border-radius: 9px;
+    background-color: cyan;
+}
+
+.image > img{
+    width:100%;
+    border-radius: 8px;
+    opacity: 1;
+    transition: opacity var(--transitionOut);
+}
+
+.image > img:hover{
+    opacity:0.9;
+    transition: var(--transitionIn);
+}
+
+.info-section > p{
+    line-height: 1.7rem;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+
+.NFT-name, a{
+    color:white;
+    text-decoration: none;
+}
+
+.price-box {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.prince-box_left {
+    display: inline-flex;
+    column-gap: 0.5rem;
+    color: var(--Cyan);
+}
+.prince-box_left > img{
+    transform: translate(0, 1rem);
+    height: 1.25rem;
+    width: 0.6rem;
+}
+
+.prince-box_right {
+    display: inline-flex;
+    column-gap: 0.5rem;
+}
+.prince-box_right > img{
+    transform: translate(0, 1rem);
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.creator-section {
+    display: flex;
+    padding-top: 4%;
+    border-top: 1px solid var(--VeryDarkBlueLn);
+}
+
+.creator-section > img {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 10%;
+
+    border: 1px solid white;
+    border-radius: 50px;
+    
+}
+
+.creator-section > p {
+    margin: 1rem;
+    transform: translate(0, -0.7rem);
+    display: inline;
+
+}
+
